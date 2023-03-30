@@ -1,0 +1,248 @@
+ <!DOCTYPE html>
+ <html lang="es" >
+      <head>
+        <meta name="description" content="Tienda virtual" charset="utf-8"/>
+        <meta name="keywords" content="tienda virtual"/>
+        </script>
+        <title>Cypher Net</title>
+            <link rel="shortcut icon" type="image/x-icon" href="https://scontent.faep1-1.fna.fbcdn.net/v/t39.30808-6/334189841_883829859517605_2619412024220927837_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF1dOrsIdfgKOZAAWSMTrJau3XE1bvr1US7dcTVu-vVRIORSiWC34lSssetCIUNZH2EW7Ly0Lq8Xv14BlellefI&_nc_ohc=BsUI3S-IWdwAX-yVGha&_nc_ht=scontent.faep1-1.fna&oh=00_AfD4jtXtzB-HHlaa_PhDSZJnzC1O7aV_RqvvmSTd6m1xiA&oe=642ABE11">
+            <style>
+                body
+    /*background:#000000;*/
+    /*color:#fff*/
+/** {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color:#2956b2;
+}
+
+h2,h3 {
+    font-size: 30px;
+}
+
+a {
+    color: #2956b2;
+}
+
+.perro {
+    color: blue;
+    font-size: 20px;
+}*/
+/* comentarios 
+
+/*lo de arriba solamente lo mantengo suspendido*/
+
+body {
+    font-size: 7px;
+    background:#80BFF7;
+    display:inline-block;
+}
+
+* {
+    /*margin: .5px;*/
+    /*padding: 20;*/
+}
+
+h1 {
+    color:#fff;
+    background:#2956b2;
+    width: 50%;
+    margin: .5px;
+    font-size: 30px;
+}
+
+h2,h3 {
+    font-size: 20px;
+    color:#fff;
+    background:#2956b2;
+    width: 288px;
+    margin: .5px;
+}
+
+p {
+    font-size: 18px;
+    background:#000;
+    color:red;
+    width:50%;
+    margin: .5px;
+}
+
+a {
+    color: #2956b2;
+    margin: .5px;
+    text-decoration:none;
+}
+
+.perro {
+    color: blue;
+    font-size: 15px;
+    margin: .5px;
+}
+
+a[href="https://www.facebook.com/profile.php?id=100090175719681"]{
+    font-size: 25px;
+    margin: .5px;
+    background:#3BA7E1;
+    color:#fff;
+    padding:5px 10px;
+    box-shadow:0px 5px 0px #1D64A6;
+}
+
+a:hover [href="https://www.facebook.com/profile.php?id=100090175719681"] {
+    box-shadow:0px 2px 0px #1D64A6;
+}
+
+a:active [href="https://www.facebook.com/profile.php?id=100090175719681"] {
+    box-shadow:none;
+}
+
+div p {
+    font-size: 18px;
+    background:#000;
+    color:yellow;
+    width:50%;
+    margin: .5px;
+}
+
+a:hover {
+    text-decoration:underline;
+    font-size:20px;
+    /*background:gray;
+    over es para las animaciones al pasar el mousse*/
+}
+
+a:active {
+    
+}
+
+.oferta {
+    font-size: 15px;
+    background:orange;
+    color:black;
+    width: 50%
+    margin: 10px 10px;
+    padding: 70px;
+    padding-left: 40px;
+    padding-top: 30px;
+    border: 5px solid #000;
+    position:absolute;
+    top: 450px;
+    bottom:0;
+    right:0;
+    left: 200px;
+}
+
+ul, ol {
+    font-size: 10px;
+}
+
+ /*div p {
+    font-size: 1.1em;
+ }*/
+ /*para ubicar las cajas*/
+ /*margin= marca la distancia del margen alrededor del prodcuto*/
+ /*border= es para poner un borde a los cuadros*/
+ /*width=es el tamaño del contenido dentro del cuadro*/
+ /*padding=es para la separacion del contenido y el borde*/
+/*display:inline-block= separa dos cajas una al lado de la otra
+*/
+/*float:left;*/
+/*diferentes maneras para definir los colores*/
+    /*color:rgb(53, 131, 44);*/
+    /*color:rgb(10%, 20%, 30%);*/
+    /*color:rgba(53, 131, 44, .5); mayormente para cajas*/
+/*diferentes maneras de colocar el fondo de pantalla*/
+    /*background: #A9D1F4;*/
+    /*background-attachment:fixed;*/
+    /*background-repeat: repeat-y;
+            </style>
+     </head>
+     <body>
+        <h1>Tienda Virtual Cypher Net</h1>
+        <img src="https://imgs.search.brave.com/zCen69mC6mc817vWaQavrNqMdv1dj4rNiOXc4uUPja8/rs:fit:474:237:1/g:ce/aHR0cHM6Ly9taXJh/Y29tb2hhY2VybG8u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE3LzA3LzUtMzAu/anBn" alt="Icono facebook" width="288" height="50"><br/>
+        <b><p>Nuevo Ingreso de NEW BALANCE!!!</p></b>
+    <div>
+        <p>Para aprovechar $3.300 Distintos modelos, colores, y talles! Del 21 al 34...<p>
+    </div>
+        <img src="https://scontent.faep1-1.fna.fbcdn.net/v/t39.30808-6/329602824_564877812337860_6859822699690002637_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHzD_vaZU9U49hA7zbz7Kfojh3tjkAo8HCOHe2OQCjwcKqC85dMGn2yjRytnrPgMacRZ8dSw5h2BG3Xs5SOeWRi&_nc_ohc=tvOLBvqQeuIAX--BN4o&_nc_ht=scontent.faep1-1.fna&oh=00_AfAe9tRfhIvdUTTb1T_2GnyDpjetsSEUDXya_9Il4kOzLg&oe=63EF0BF8" alt="Imagen New Balance" title="Imagen New Balance" width="200" height="200"><br><br>
+        <a target="_blanck" href="https://www.facebook.com/profile.php?id=100090734109048" title="Enlace a tienda de Facebook" class="perro"><strong>Visita Nuestra Tienda</strong></a>
+        <a target="_blanck" href="https://scontent.faep1-1.fna.fbcdn.net/v/t39.30808-6/334073478_545012207611415_7916006002394253337_n.jpg?stp=dst-jpg_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeETq2VUkzY-5TQbX0ElsGSmzgQuGNBLOJfOBC4Y0Es4l_PBJLp1_a9ctNXCObYZfDDdEuBaMcgg6p9KscP9tfnq&_nc_ohc=GjXVd_M7-osAX_oNUun&_nc_ht=scontent.faep1-1.fna&oh=00_AfAD4RuqQviyoWN6_YNinfJYozTDDIZTwDnLMCACJjDddg&oe=6429E2C3" title="Logo MaryLuna" class="perro">Ver logo</a>
+        <hr/>
+             <h2>Nuestros Productos</h2><br>
+             <div>
+             <b><p class="oferta">BUENISIMAS Nike y Adidas!
+Elegi tu talle y ahorra!!<br/>Pedilo con la palabra clave: <a href="#vueltaalcole">#vueltaalcole</a> <br/>Y llevate un descuento del 20% PRECIOS INSUPERABLES!!!</p2></b>
+             </div>
+             <ul><b>
+                <li>Zapatillas</li>
+                    <ul>
+                        <li><a href="zapatillas adultos">Adultos</a></li>
+                        <li><a href="#">Niños</a></li>
+                    </ul>
+                <li><a href="#">Conjuntos</a></li>
+                <li>Pantalones</li>
+                    <ul>
+                        <li><a href="#">Hombres</a></li>
+                        <li><a href="#">Mujeres</a></li>
+                    </ul>
+                <li><a href="#">Unisex</a></li>
+
+             </ul>
+
+             <ol>
+                <li><a href="#">Comprar ahora</a></li>
+                <li><a href="#">Reservar</a></li>
+                <li><a href="#">Consultar</a></li>
+                    <ul>
+                        <li><a href="#">Messenger</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+                <li><a href="#">Comparar</a></li>
+             </ol></b><br>
+            <img src="https://imgs.search.brave.com/zCen69mC6mc817vWaQavrNqMdv1dj4rNiOXc4uUPja8/rs:fit:474:237:1/g:ce/aHR0cHM6Ly9taXJh/Y29tb2hhY2VybG8u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE3LzA3LzUtMzAu/anBn" alt="Icono facebook" width="288" height="50"><br/><hr/>
+        <h3>Contactanos</h3><br>
+        <form>
+                    <label for="nombre">Haga click aqui:</label>
+                    <input type="texto" placeholder="Escribe tu nombre" maxlength="12" name="" id="nombre" >
+                    <br>
+                    <label for="Gmail">Escriba su Gmail:</label>
+                    <input type="email" placeholder="Gmail" name="email" id="email"><br>
+                    <label for="Contraseña">Contraseña:</label>
+                    <input type="password" placeholder="Contraseña" id="Contraseña" name="Contraseña"><br>
+                    <select>
+                        <option value="Mar del Plata">Mar del Plata</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
+                    </select><br><br>
+                    <input type="submit" value="Enviar Mensaje">
+                </form><br>
+
+                <section class="zapatillas adultos">
+                    <a href="C:\Users\Usuario\Desktop\Proyecto CypherNet\Subidas\Zapatillas\adultos"></a>
+                </section>
+                <section class="zapatillas niños"></section>
+                <section class="ropa hombres"></section>
+                <section class="ropa mujeres"></section>
+                <section class="unisex"></section>
+     </body>
+</HTML>
+      	<!--h1. se usa solo para titulares
+      		p. son los textos
+      		b. es formato negrita
+      		strong. tambien en negrita
+      		span. es para ser encontrado mas facil
+      		i. es en cursiva
+      		br. es un espaciado
+      		cite. es para el autor del texto
+      		hr. es para separar con una linea
+      		a href. es para enlaces
+      		ul. son listas desordenadas
+      		ol. son listas ordenadas
+      		li son para hacer las listas individuales
+      		img. es el enlace de imagen
+      		height. es el alto de la imagen
+      		width. es el ancho de la imagen
+      		table. armar tablas
+      		tr. filas
+      		td. columnas-->
